@@ -1,28 +1,19 @@
-# IntelliJ IDEA
+# IDE
 .idea/
 *.iml
 
-# Maven
+# Build/outputs
 target/
 out/
 build/
 .gradle/
-# Оставляем wrapper в репозитории
-!.mvn/wrapper/maven-wrapper.jar
-!.mvn/wrapper/maven-wrapper.properties
-!mvnw
-!mvnw.cmd
 
-# Gradle (если вдруг используешь)
-.gradle/
-build/
+# Test artifacts
+allure-results/
+allure-report/
+screenshots/
+downloads/
+selenide.log
 
-# VS Code
-.vscode/
+# OS/Tools
 .DS_Store
-Thumbs.db
-EOF
-
-# OS
-.DS_Store
-Thumbs.db

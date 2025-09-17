@@ -17,3 +17,4 @@ public class BaseTestConfig1 {
     }
 }
 //Первый коммит
+//Коммент для main

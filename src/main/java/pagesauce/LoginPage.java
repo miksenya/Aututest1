@@ -18,5 +18,6 @@ public class LoginPage {
     public void clickLogin(){
         loginButton.click();
     }
-
 }
+
+//Коммит Алексея

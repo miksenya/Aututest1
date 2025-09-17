@@ -17,4 +17,4 @@ public class BaseTestConfig1 {
     }
 }
 //Первый коммит
-//Коммент для main
+//Коммент для main второй коммит

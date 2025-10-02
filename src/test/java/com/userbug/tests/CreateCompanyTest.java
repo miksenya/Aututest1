@@ -1,9 +1,9 @@
 package com.userbug.tests;
 
-import com.userbug.base.BaseApiTest;
-import com.userbug.client.CompanyClient;
-import com.userbug.client.UserClient;
-import com.userbug.model.request.CreateCompanyRequest;
+import com.userbug.tests.base.BaseApiTest;
+import pageuserbug.client.CompanyClient;
+import pageuserbug.client.UserClient;
+import pageuserbug.model.request.CreateCompanyRequest;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +17,7 @@ public class CreateCompanyTest extends BaseApiTest {
     private final CompanyClient companyClient = new CompanyClient();
 
     @Test
-    void createCompany_success() {
+    void createCompanyTest() {
         // подготовка — делаем, чтобы API принял company_users и owner
         String owner = "owner_qa@example.com";
         String u1 = "user1_qa@example.com";

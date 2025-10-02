@@ -1,4 +1,4 @@
-package com.userbug.model.request;
+package pageuserbug.model.request;
 
 public class TaskDto {
     public String title;

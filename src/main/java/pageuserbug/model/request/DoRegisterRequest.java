@@ -1,4 +1,4 @@
-package com.userbug.model.request;
+package pageuserbug.model.request;
 
 public class DoRegisterRequest {
     public String email;

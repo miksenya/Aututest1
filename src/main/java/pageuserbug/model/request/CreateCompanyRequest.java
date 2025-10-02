@@ -1,4 +1,4 @@
-package com.userbug.model.request;
+package pageuserbug.model.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;

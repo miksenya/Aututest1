@@ -1,4 +1,4 @@
-package com.userbug.model.response;
+package pageuserbug.model.response;
 
 public class DoRegisterResponse {
     public String type;    // "success"/"error" — стенд иногда так отвечает

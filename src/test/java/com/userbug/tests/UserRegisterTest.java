@@ -1,8 +1,8 @@
 package com.userbug.tests;
 
-import com.userbug.base.BaseApiTest;
-import com.userbug.client.UserClient;
-import com.userbug.model.request.DoRegisterRequest;
+import com.userbug.tests.base.BaseApiTest;
+import pageuserbug.client.UserClient;
+import pageuserbug.model.request.DoRegisterRequest;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
@@ -15,8 +15,8 @@ public class UserRegisterTest extends BaseApiTest {
     @Test
     void doRegisterTest() {
         DoRegisterRequest req = new DoRegisterRequest(
-                "3224ewfdwdf@bk.ru",
-                "Roman6",
+                "4ewfdwdf@bk.ru",
+                "Roman3",
                 "2"
         );
 
@@ -27,6 +27,6 @@ public class UserRegisterTest extends BaseApiTest {
                 .extract().response();
 
         String name = response.jsonPath().getString("name");
-        assertEquals("Имена не совпадают", "Roman6", name);
+        assertEquals("Roman3", name, "Имена не совпадают");
     }
 }

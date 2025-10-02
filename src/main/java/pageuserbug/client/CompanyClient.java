@@ -1,6 +1,6 @@
-package com.userbug.client;
+package pageuserbug.client;
 
-import com.userbug.model.request.CreateCompanyRequest;
+import pageuserbug.model.request.CreateCompanyRequest;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 

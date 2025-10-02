@@ -1,9 +1,9 @@
 package com.userbug.tests;
 
-import com.userbug.base.BaseApiTest;
-import com.userbug.client.UserClient;
-import com.userbug.model.request.CreateUserWithTasksRequest;
-import com.userbug.model.request.TaskDto;
+import com.userbug.tests.base.BaseApiTest;
+import pageuserbug.client.UserClient;
+import pageuserbug.model.request.CreateUserWithTasksRequest;
+import pageuserbug.model.request.TaskDto;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +17,7 @@ public class CreateUserWithTasksTest extends BaseApiTest {
     private final UserClient userClient = new UserClient();
 
     @Test
-    void createUser_success() {
+    void createUserTest() {
         String uniq  = String.valueOf(System.currentTimeMillis());
         String email = "cu_" + uniq + "@mail.com";
         String name  = "Рест_" + uniq;

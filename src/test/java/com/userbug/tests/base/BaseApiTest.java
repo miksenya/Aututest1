@@ -1,4 +1,4 @@
-package com.userbug.base;
+package com.userbug.tests.base;
 
 import io.restassured.RestAssured;
 import io.restassured.filter.log.LogDetail;

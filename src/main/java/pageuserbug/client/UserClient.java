@@ -1,11 +1,12 @@
-package com.userbug.client;
+package pageuserbug.client;
 
-import com.userbug.model.request.CreateUserWithTasksRequest;
-import com.userbug.model.request.DoRegisterRequest;
+import pageuserbug.model.request.CreateUserWithTasksRequest;
+import pageuserbug.model.request.DoRegisterRequest;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
+
 
 public class UserClient {
 
